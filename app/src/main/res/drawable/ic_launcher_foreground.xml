@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer concentric segmented arcs -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00B0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32,32 A 31,31 0 0,1 76,32" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00B0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 76,76 A 31,31 0 0,1 32,76" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 23,54 A 31,31 0 0,1 29,39" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 85,54 A 31,31 0 0,1 79,69" />
+
+    <!-- Intermediate Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80D8FF"
+        android:strokeWidth="2"
+        android:pathData="M 54,34 A 20,20 0 1,1 53.9,34" />
+
+    <!-- Reactor core segments -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 54,38 L 52,43 L 56,43 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 54,70 L 52,65 L 56,65 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 38,54 L 43,52 L 43,56 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 70,54 L 65,52 L 65,56 Z" />
+
+    <!-- Central Glowing Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,47 A 7,7 0 1,1 53.9,47" />
+
+    <!-- Radiating Voice Waveform Points -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 46,52 L 48,52 L 48,56 L 46,56 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 60,52 L 62,52 L 62,56 L 60,56 Z" />
+</vector>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JARVIS AI</string>
+    <string name="accessibility_service_name">JARVIS AI Screen Assistant</string>
+    <string name="accessibility_service_desc">Enables JARVIS AI to perform requested voice actions like tapping buttons, scrolling, entering text, and navigating Back or Home.</string>
+</resources>
